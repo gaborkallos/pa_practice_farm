@@ -1,6 +1,8 @@
 package Plants;
 
 public abstract class Plants {
+
+
     protected String name;
     protected String type;
     protected double produce;

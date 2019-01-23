@@ -7,7 +7,7 @@ public abstract class SpawnOrDie extends Plants {
     protected boolean rotted;
     protected boolean spawned;
 
-    public void spawn(){
+    public void spawn(int chance){
 
     }
 
