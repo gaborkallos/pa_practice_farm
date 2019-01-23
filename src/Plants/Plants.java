@@ -1,9 +1,9 @@
 package Plants;
 
 public abstract class Plants {
-    private String name;
-    private String type;
-    private double produce;
+    protected String name;
+    protected String type;
+    protected double produce;
 
     public void growProduce(){
 

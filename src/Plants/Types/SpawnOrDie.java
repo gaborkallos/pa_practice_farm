@@ -3,9 +3,9 @@ package Plants.Types;
 import Plants.Plants;
 
 public abstract class SpawnOrDie extends Plants {
-    private int chanceOfSpawn;
-    private boolean rotted;
-    private boolean spawned;
+    protected int chanceOfSpawn;
+    protected boolean rotted;
+    protected boolean spawned;
 
     public void spawn(){
 

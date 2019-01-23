@@ -13,8 +13,14 @@ public class Farm {
     private boolean spruceRotted;
     private boolean almondRotted;
 
-    public void addPlants(){
-        //TODO: implement it
+    public Farm(String name, String location, int week) {
+        this.name = name;
+        this.location = location;
+        this.week = week;
+    }
+
+    public void addPlants(Plants plant){
+        plants.add(plant);
     }
 
     public void monthlyReport(){
