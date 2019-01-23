@@ -2,6 +2,8 @@ package Farm;
 
 import Plants.Plants;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -9,7 +11,7 @@ public class Farm {
     private String name;
     private String location;
     private int week;
-    private List<Plants> plants;
+    private List<Plants> plants = new ArrayList<>();
     private boolean spruceRotted;
     private boolean almondRotted;
 

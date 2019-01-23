@@ -6,6 +6,7 @@ public abstract class Plants {
     protected double produce;
 
     public void growProduce(){
+        this.produce += 4;
 
     }
 

@@ -1,8 +1,8 @@
 package Plants.Types;
 
-import Plants.Evergreen;
+import Plants.Plants;
 
-public class Juniper extends SpawnOrDie implements Evergreen {
+public class Juniper extends Plants {
 
     public Juniper(String name, String type, double produce ) {
         super.name = name;
@@ -10,13 +10,5 @@ public class Juniper extends SpawnOrDie implements Evergreen {
         super.produce = produce;
     }
 
-    @Override
-    public void fifthWeek() {
 
-    }
-
-    @Override
-    public void maximumProduce() {
-
-    }
 }

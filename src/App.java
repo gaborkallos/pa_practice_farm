@@ -9,5 +9,9 @@ public class App {
         farm.addPlants(new Spruce("Spruce", "Spruce", 26));
         farm.addPlants(new Almond("Almond1", "Almond", 50));
         farm.addPlants(new Juniper("Juniper1", "Juniper", 14));
+
     }
+
+
+
 }
